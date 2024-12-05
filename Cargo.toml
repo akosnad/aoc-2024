@@ -1,0 +1,17 @@
+[package]
+name = "aoc-2024"
+description = "Advent of Code 2024 - akosnad's solutions"
+version = "0.1.0"
+edition = "2021"
+authors = [ "akosnad" ]
+
+[dependencies]
+anyhow = "1.0.94"
+clap = { version = "4.5.22", features = ["derive"] }
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "day1"
+harness = false
